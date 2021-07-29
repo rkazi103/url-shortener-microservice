@@ -16,6 +16,7 @@ mongoose
   .connect(process.env.DB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    useFindAndModify: false,
   })
   .then(() => console.log(`Connected to db`))
   .catch(() => console.error(`Error in connecting to database`));
@@ -23,10 +24,6 @@ mongoose
 // Routes
 app.get("/", (req, res) => {
   res.sendFile(`${process.cwd()}/src/views/index.html`);
-});
-
-app.get("/api/hello", function (req, res) {
-  res.json({ greeting: "hello API" });
 });
 
 app.use("/api", router);
