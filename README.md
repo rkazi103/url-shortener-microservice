@@ -38,9 +38,6 @@ Placeholder
 | :-------- | :------- | :----------------------------------------------------------------------- |
 | `id`      | `number` | **Required**. Id of the URL so that you can be redirected to desired URL |
 
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
 
 ## Environment Variables
 
