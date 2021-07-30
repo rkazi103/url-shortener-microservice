@@ -14,7 +14,7 @@ This is a simple URL shortener microservice. It is the third project out of 5 yo
 
 ## Demo
 
-Placholder
+Placeholder
 
 ## API Reference
 

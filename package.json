@@ -18,9 +18,13 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^5.13.4",
-    "valid-url": "^1.0.9"
+    "validator": "^13.6.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rkazi103/url-shortener-microservice"
   }
 }

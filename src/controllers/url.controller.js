@@ -1,4 +1,4 @@
-const validUrl = require("valid-url");
+const validator = require("validator");
 const Url = require("../models/Url");
 
 module.exports = class UrlController {
@@ -6,7 +6,7 @@ module.exports = class UrlController {
     const inputUrl = req.body.url;
     let resObject = {};
 
-    if (!validUrl.isUri(inputUrl)) {
+    if (!validator.isURL(inputUrl)) {
       res.status(400).json({
         error: "Invalid URL",
       });
