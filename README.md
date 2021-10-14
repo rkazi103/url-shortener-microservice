@@ -80,7 +80,3 @@ Start the server in production (using regular node)
 ```bash
   yarn start
 ```
-
-## Feedback
-
-If you have any feedback, please reach out to me at rayan.quack.you@gmail.com
